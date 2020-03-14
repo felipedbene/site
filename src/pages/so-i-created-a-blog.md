@@ -1,5 +1,5 @@
 ---
-title: "So I decided to create a blog..."
+title: "So I created a blog..."
 date: "2020-03-14"
 tag: ["gatsby","blog","Serverless"]
 ---
