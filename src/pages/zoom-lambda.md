@@ -23,10 +23,10 @@ A little googling yelled me this : [site](https://devforum.zoom.us/t/how-can-i-r
 So the first thing I did was creating a new environment on Cloud9 because of it's integration with Lambda and ease to use.
 
 The function idea is very simple, it has to :
-> Receive the event
-> Get the recording meta-data and download url
-> Download the mp4 file to /tmp.
-> Upload the file to S3.
+- Receive the event
+- Get the recording meta-data and download url
+- Download the mp4 file to /tmp.
+- Upload the file to S3.
 
 The event itself would look according to their documentation [Zoom Documentation](https://marketplace.zoom.us/docs/api-reference/webhook-reference/recording-events/recording-completed)
 
